@@ -2,8 +2,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Hero from './Hero'
-import Features from './features/Features'
-import CommunityForumPoster from './posters/CommunityForumPoster'
+import Map from './Map'
 import Footer from './Footer'
 import "./styles.css" 
 
@@ -12,8 +11,7 @@ const Home = () => {
         <div>
            <Navbar/>
            <Hero/>
-           <Features/>  
-           <CommunityForumPoster/> 
+           <Map/>
            <Footer/>
         </div>
       )
